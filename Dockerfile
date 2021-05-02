@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get upgrade
-RUN apt-get install wget vim
+RUN apt-get install net-tools
