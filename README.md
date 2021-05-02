@@ -6,5 +6,8 @@
 Installing :⚡️
 ```shell
 f0rkr@shell$ chmod +x setup.sh
+f0rkr@shell$ ./setup.sh
+# Setup.sh create /tmp/roger folder and link it to rogerx0 container
+# use it to exchange files between you and your special agent
 f0rkr@shell$ docker exec -it rogerx0 bash
 ```
